@@ -45,7 +45,7 @@ msg(){
     -blu1) cor="${COLOR[9]}" && echo -e "${cor}${2}${SEMCOR}";;
     -verd) cor="${COLOR[2]}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}";;
     -bra)  cor="${COLOR[0]}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}";;
-    -bar) echo -e "\e[1;30m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" ;;
+    -bar) echo -e "\e[1;30m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" ;;
     -ne) echo -ne " \e[1;30m[\e[1;36m◆\e[1;30m]\e[1;36m $2\e[1;32m"; read $3 ;;
     -e)echo -e "$2";;
   esac
